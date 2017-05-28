@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Metamorphous|Hind');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Hind', sans-serif;
+}
+
+#banner {
+	position: fixed;
+	padding: 40px 0px 0px 40px;
+	color: white;
+	font-family: 'Metamorphous', cursive;
+	font-size: 1.2em;
+}
+
+#heading {
+	text-align: center;
+	padding: 100px;
+	padding-bottom: 0px;
+	font-size: 3.5em;
+}
+
+#platform {
+	max-width: 70%;
+	margin: 0 auto;
+}
+.pad {
+	padding-top: 260px;
+}
+.people-r, .people-l {
+	padding: 100px 0 20px 0;
+	opacity: 1;
+}
+
+.Pteam {
+	background-color: white; 
+	max-width: 85%;
+	height: 570px;
+}
+
+.Pteam img {
+	position: absolute;
+	width : auto;
+	height: 500px;
+}
+
+.people-l .Pteam {
+	margin-left: auto;
+}
+
+#Dplace-here {
+	padding: 30px;
+}
+
+.Dteam {
+	height: 320px;
+	width: 380px;
+	background-color: white;
+	color: black;
+	box-shadow: 0px 10px 50px 5px black;
+	position: relative;
+	z-index: 10;
+}
+.Dteam h4{
+	font-size: 1.2em;
+	letter-spacing: 4px;
+}
+.Dteam h3 {
+	font-size: 2em;
+}
+
+.people-l .pad .Dteam, .people-l .pad {
+	float: left;
+	text-align: left;
+}
+
+.people-r .pad .Dteam, .people-r .pad {
+	float: right;
+	text-align: right;
+}
+
+.social i {
+	padding-right: 20px;
+}
+.social {
+	text-align: center;
+	position: absolute;
+	font-size: 1.6em;
+	bottom: 0;
+}
+
+
+
+
+
+
+#rishabh {
+	background: url("images/sid.jpg") center center no-repeat;
+	background-size: auto 570px;
+	position: absolute;
+	z-index: 5;
+}
+#rishabh-b {
+	background: url(images/sid.jpg) repeat;
+	background-size: auto 570px;
+	filter: blur(5px);
+	position: relative;
+}
+
+
+#abhishek {
+	background: url("images/abhishek.jpg") center center no-repeat, url(images/abhishek.jpg) repeat;
+	background-size: auto 570px;
+}
+
+
+#siddhant {
+	background: url("images/sid.jpg") center center no-repeat, url(images/sid.jpg) repeat;
+	background-size: auto 570px;
+}
+
+
+#siddharth {
+	background: url("images/sid.jpg") center center no-repeat, url(images/sid.jpg) repeat;
+	background-size: auto 570px;
+}
+
+
+#vinit {
+	background: url("images/sid.jpg") center center no-repeat, url(images/sid.jpg) repeat;
+	background-size: auto 570px;
+}
+
+
+#austin {
+	background: url("images/sid.jpg") center center no-repeat, url(images/sid.jpg) repeat;
+	background-size: auto 570px;
+}
+
+
+#anmol {
+	background: url("images/sid.jpg") center center no-repeat, url(images/sid.jpg) repeat;
+	background-size: auto 570px;
+}
+
