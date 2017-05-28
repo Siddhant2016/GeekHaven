@@ -67,7 +67,7 @@ body {
 	box-shadow: 0px 10px 50px 5px black;
 }
 .Dteam h4{
-	font-size: 1em;
+	font-size: 1.4em;
 }
 .Dteam h3 {
 	font-size: 2em;
@@ -100,6 +100,15 @@ h5 {
 a {color: inherit;}
 a:hover {color: grey;}
 
+#slider {
+	position: fixed;
+	right: 50px;
+	top: 30%;
+}
+
+div a {
+	padding-bottom: 20px;
+}
 
 .circle {
 	width: 10px;
@@ -110,7 +119,25 @@ a:hover {color: grey;}
 	border-radius: 50%;
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%; 
+}
 
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
 
 
 
@@ -121,7 +148,7 @@ a:hover {color: grey;}
 }
 
 #abhishek {
-	background: url("images/sid.jpg") center center no-repeat, url(images/sid.jpg) repeat;
+	background: url("images/user.jpg") center center no-repeat, url(images/user.jpg) repeat;
 	background-size: auto 520px;
 }
 
@@ -133,19 +160,19 @@ a:hover {color: grey;}
 
 
 #siddharth {
-	background: url("images/siddharth.jpg") center center no-repeat, url(images/siddharth.jpg) repeat;
+	background: url("images/userdharth.jpg") center center no-repeat, url(images/userdharth.jpg) repeat;
 	background-size: auto 520px;
 }
 
 
 #vinit {
-	background: url("images/sid.jpg") center center no-repeat, url(images/sid.jpg) repeat;
+	background: url("images/user.jpg") center center no-repeat, url(images/user.jpg) repeat;
 	background-size: auto 520px;
 }
 
 
 #austin {
-	background: url("images/sid.jpg") center center no-repeat, url(images/sid.jpg) repeat;
+	background: url("images/user.jpg") center center no-repeat, url(images/user.jpg) repeat;
 	background-size: auto 520px;
 }
 
