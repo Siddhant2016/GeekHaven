@@ -42,7 +42,7 @@ body {
 .Pteam {
 	background-color: white; 
 	max-width: 85%;
-	height: 570px;
+	height: 520px;
 }
 
 .Pteam img {
@@ -60,20 +60,21 @@ body {
 }
 
 .Dteam {
-	height: 320px;
-	width: 380px;
+	height: 220px;
+	width: 280px;
 	background-color: white;
 	color: black;
 	box-shadow: 0px 10px 50px 5px black;
-	position: relative;
-	z-index: 10;
 }
 .Dteam h4{
-	font-size: 1.2em;
-	letter-spacing: 4px;
+	font-size: 1em;
 }
 .Dteam h3 {
 	font-size: 2em;
+}
+
+h5 {
+	font-size: 1.1em;
 }
 
 .people-l .pad .Dteam, .people-l .pad {
@@ -88,12 +89,25 @@ body {
 
 .social i {
 	padding-right: 20px;
+	text-decoration-color: none;
 }
 .social {
 	text-align: center;
-	position: absolute;
 	font-size: 1.6em;
-	bottom: 0;
+	bottom: 0px;
+}
+
+a {color: inherit;}
+a:hover {color: grey;}
+
+
+.circle {
+	width: 10px;
+	height: 10px;
+	background: white;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
 }
 
 
@@ -102,51 +116,42 @@ body {
 
 
 #rishabh {
-	background: url("images/sid.jpg") center center no-repeat;
-	background-size: auto 570px;
-	position: absolute;
-	z-index: 5;
+	background: url("images/abhishek.jpg") center center no-repeat, url(images/abhishek.jpg) repeat;
+	background-size: auto 520px;
 }
-#rishabh-b {
-	background: url(images/sid.jpg) repeat;
-	background-size: auto 570px;
-	filter: blur(5px);
-	position: relative;
-}
-
 
 #abhishek {
-	background: url("images/abhishek.jpg") center center no-repeat, url(images/abhishek.jpg) repeat;
-	background-size: auto 570px;
+	background: url("images/sid.jpg") center center no-repeat, url(images/sid.jpg) repeat;
+	background-size: auto 520px;
 }
 
 
 #siddhant {
 	background: url("images/sid.jpg") center center no-repeat, url(images/sid.jpg) repeat;
-	background-size: auto 570px;
+	background-size: auto 520px;
 }
 
 
 #siddharth {
-	background: url("images/sid.jpg") center center no-repeat, url(images/sid.jpg) repeat;
-	background-size: auto 570px;
+	background: url("images/siddharth.jpg") center center no-repeat, url(images/siddharth.jpg) repeat;
+	background-size: auto 520px;
 }
 
 
 #vinit {
 	background: url("images/sid.jpg") center center no-repeat, url(images/sid.jpg) repeat;
-	background-size: auto 570px;
+	background-size: auto 520px;
 }
 
 
 #austin {
 	background: url("images/sid.jpg") center center no-repeat, url(images/sid.jpg) repeat;
-	background-size: auto 570px;
+	background-size: auto 520px;
 }
 
 
 #anmol {
-	background: url("images/sid.jpg") center center no-repeat, url(images/sid.jpg) repeat;
-	background-size: auto 570px;
+	background: url("images/anmol.jpg") center center no-repeat, url(images/anmol.jpg) repeat;
+	background-size: auto 520px;
 }
 
