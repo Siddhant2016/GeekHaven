@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Metamorphous|Hind');
+@import url('https://fonts.googleapis.com/css?family=Metamorphous|Hind:300|Lato:300');
 
 * {
 	margin: 0;
@@ -12,7 +12,7 @@ body {
 	font-family: 'Hind', sans-serif;
 }
 
-#banner {
+#banner-text {
 	position: fixed;
 	padding: 40px 0px 0px 40px;
 	color: white;
@@ -140,6 +140,111 @@ div a {
 }
 
 
+footer {
+	text-align: center;
+	padding: 100px 0 20px 0;
+}
+
+#up {
+	position: fixed;
+	bottom: 30px;
+	right: 37px;
+	color: white;
+	font-size: 30px;
+}
+
+
+#myNav {
+
+	font-family: 'Metamorphous', cursive;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.overlay a {
+    padding: 50px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 30px;
+}
+
+#navi {
+	position: fixed;
+	right: 10px;
+	top: 10px;
+}
+
+#intro {
+	max-width: 60%;
+	text-align: center;
+	font-size: 30px;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+
+#main-heading {
+	text-align: center;
+	padding-top: 40px;
+}
+
+#main {
+	font-size: 50px;
+	letter-spacing: 6px;
+	font-family: 'Lato', sans-serif;
+}
+#bar {
+	background-color: #F0BA00;
+	height: 3px;
+	width: 420px;
+	margin: 0 auto;
+}
+
+#holder div {
+	display: inline-block;
+	max-width: 33.33%;
+}
+
+#holder {
+	max-width: 35%;
+	margin: 0 auto;
+}
+
+.btn {
+	width: 200px;
+}
 
 
 #rishabh {
@@ -148,7 +253,7 @@ div a {
 }
 
 #abhishek {
-	background: url("images/user.jpg") center center no-repeat, url(images/user.jpg) repeat;
+	background: url("images/user.png") center center no-repeat, url(images/user.png) repeat;
 	background-size: auto 520px;
 }
 
@@ -160,19 +265,19 @@ div a {
 
 
 #siddharth {
-	background: url("images/userdharth.jpg") center center no-repeat, url(images/userdharth.jpg) repeat;
+	background: url("images/siddharth.jpg") center center no-repeat, url(images/siddharth.jpg) repeat;
 	background-size: auto 520px;
 }
 
 
 #vinit {
-	background: url("images/user.jpg") center center no-repeat, url(images/user.jpg) repeat;
+	background: url("images/user.png") center center no-repeat, url(images/user.png) repeat;
 	background-size: auto 520px;
 }
 
 
 #austin {
-	background: url("images/user.jpg") center center no-repeat, url(images/user.jpg) repeat;
+	background: url("images/user.png") center center no-repeat, url(images/user.png) repeat;
 	background-size: auto 520px;
 }
 
