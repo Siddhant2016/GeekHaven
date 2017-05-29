@@ -156,7 +156,7 @@ footer {
 
 #myNav {
 
-	font-family: 'Metamorphous', cursive;
+	font-family: 'Lato', sans-serif;
 }
 
 .overlay {
@@ -178,13 +178,14 @@ footer {
     width: 100%;
     text-align: center;
     margin-top: 30px;
+    overflow: auto;
 }
 
 
 .overlay a {
-    padding: 50px;
+    padding: 90px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 4em;
     color: white;
     display: inline-block;
     transition: 0.3s;
@@ -226,7 +227,7 @@ footer {
 	font-family: 'Lato', sans-serif;
 }
 #bar {
-	background-color: #F0BA00;
+	background-color: #E3B413;
 	height: 3px;
 	width: 420px;
 	margin: 0 auto;
@@ -248,42 +249,49 @@ footer {
 
 
 #rishabh {
-	background: url("images/abhishek.jpg") center center no-repeat, url(images/abhishek.jpg) repeat;
+	background: url("images/abhishek.jpg") center center no-repeat;
 	background-size: auto 520px;
+	background-color: #09C2DF;
 }
 
 #abhishek {
-	background: url("images/user.png") center center no-repeat, url(images/user.png) repeat;
+	background: url("images/user.png") center center no-repeat;
 	background-size: auto 520px;
+	background-color: #09C2DF;
 }
 
 
 #siddhant {
-	background: url("images/sid.jpg") center center no-repeat, url(images/sid.jpg) repeat;
+	background: url("images/sid.jpg") center center no-repeat;
 	background-size: auto 520px;
+	background-color: #09C2DF;
 }
 
 
 #siddharth {
-	background: url("images/siddharth.jpg") center center no-repeat, url(images/siddharth.jpg) repeat;
+	background: url("images/siddharth.jpg") center center no-repeat;
 	background-size: auto 520px;
+	background-color: #09C2DF;
 }
 
 
 #vinit {
-	background: url("images/user.png") center center no-repeat, url(images/user.png) repeat;
+	background: url("images/user.png") center center no-repeat;
 	background-size: auto 520px;
+	background-color: #09C2DF;
 }
 
 
 #austin {
-	background: url("images/user.png") center center no-repeat, url(images/user.png) repeat;
+	background: url("images/user.png") center center no-repeat;
 	background-size: auto 520px;
+	background-color: #09C2DF;
 }
 
 
 #anmol {
-	background: url("images/anmol.jpg") center center no-repeat, url(images/anmol.jpg) repeat;
+	background: url("images/anmol.jpg") center center no-repeat;
 	background-size: auto 520px;
+	background-color: #09C2DF;
 }
 
