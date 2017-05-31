@@ -18,6 +18,7 @@ body {
 	color: white;
 	font-family: 'Metamorphous', cursive;
 	font-size: 1.2em;
+	display: none;
 }
 
 #heading {
@@ -30,6 +31,7 @@ body {
 #platform {
 	max-width: 70%;
 	margin: 0 auto;
+	display: none;
 }
 .pad {
 	padding-top: 260px;
@@ -206,6 +208,7 @@ footer {
 	position: fixed;
 	right: 10px;
 	top: 10px;
+	padding: 10px 10px 0 0;
 }
 
 #intro {
@@ -214,11 +217,13 @@ footer {
 	font-size: 30px;
 	margin: 0 auto;
 	padding-top: 150px;
+	display: none;
 }
 
 #main-heading {
 	text-align: center;
 	padding-top: 40px;
+	display: none;
 }
 
 #main {
@@ -241,6 +246,7 @@ footer {
 #holder {
 	max-width: 35%;
 	margin: 0 auto;
+	display: none;
 }
 
 .btn {
