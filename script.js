@@ -13,7 +13,18 @@ $(document).ready(function() {
 			var href = $(this).attr('href');
 			setTimeout(function(){window.location = href}, 800);
 			return false;
-	});		
+	});	
+
+	$('.phone').mouseover(function() {
+		$('.phone').hide(500);
+		$('.social').show(500);
+		$('.Dteam').css("background-color = grey;");
+	});
+	$('.social').mouseleave(function() {
+		$('.social').hide(500);
+		$('.phone').show(500);
+	});
+
 });
 
 $(document).ready(function(){

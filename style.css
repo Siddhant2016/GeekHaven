@@ -89,6 +89,14 @@ h5 {
 	text-align: right;
 }
 
+#team {
+	float: left;
+}
+
+#gal {
+	float: right;
+}
+
 .social i {
 	padding-right: 20px;
 	text-decoration-color: none;
@@ -97,6 +105,11 @@ h5 {
 	text-align: center;
 	font-size: 1.6em;
 	bottom: 0px;
+	display: none;
+}
+
+.phone {
+	text-align: center;
 }
 
 a {color: inherit;}
@@ -239,8 +252,7 @@ footer {
 }
 
 #holder div {
-	display: inline-block;
-	max-width: 33.33%;
+	display: inline-flex;
 }
 
 #holder {
