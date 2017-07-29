@@ -42,7 +42,7 @@ body {
 }
 
 .Pteam {
-	background-color: white; 
+	background-color: white;
 	max-width: 85%;
 	height: 520px;
 }
@@ -147,7 +147,7 @@ div a {
     position: absolute;
     z-index: 1;
     top: -5px;
-    right: 105%; 
+    right: 105%;
 }
 
 .tooltip:hover .tooltiptext {
@@ -198,12 +198,14 @@ footer {
 
 
 .overlay a {
-    padding: 90px;
+    padding: 10px;
+		padding-right: 20px;
     text-decoration: none;
-    font-size: 4em;
+    font-size: 3em;
     color: white;
     display: inline-block;
     transition: 0.3s;
+		overflow: auto;
 }
 
 .overlay a:hover, .overlay a:focus {
@@ -261,6 +263,12 @@ footer {
 	display: none;
 }
 
+@media screen and (max-width : 960px) {
+	#slider, #up{
+		visibility: hidden;
+	}
+}
+
 .btn {
 	width: 200px;
 }
@@ -270,6 +278,7 @@ footer {
 	background: url("images/abhishek.jpg") center center no-repeat;
 	background-size: auto 520px;
 	background-color: #09C2DF;
+
 }
 
 #abhishek {
@@ -312,4 +321,3 @@ footer {
 	background-size: auto 520px;
 	background-color: #09C2DF;
 }
-
